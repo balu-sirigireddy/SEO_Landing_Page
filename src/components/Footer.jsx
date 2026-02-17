@@ -69,23 +69,35 @@ const Footer = () => {
 
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 flex items-center justify-center transition-colors"
               >
                 <Twitter size={20} />
               </a>
+
               <a
-                href="#"
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 flex items-center justify-center transition-colors"
               >
                 <Linkedin size={20} />
               </a>
+
               <a
-                href="#"
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 flex items-center justify-center transition-colors"
               >
                 <Github size={20} />
               </a>
+
               <a
                 href="mailto:info@vblptechsolutions.com"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 flex items-center justify-center transition-colors"
