@@ -1,91 +1,91 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import {
-  Award,
-  Users,
-  Target,
-  TrendingUp,
-  Heart,
-  Lightbulb,
-  Shield,
-  Rocket,
-} from "lucide-react";
+// import {
+//   Award,
+//   Users,
+//   Target,
+//   TrendingUp,
+//   Heart,
+//   Lightbulb,
+//   Shield,
+//   Rocket,
+// } from "lucide-react";
 import OrbitalValues from "./OrbitalValues";
 import CinematicCulture from "./CinematicCulture";
 
 const AboutUs = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
-  const [valuesRef, valuesInView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-  const [statsRef, statsInView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-  const [teamRef, teamInView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
-  const [cultureRef, cultureInView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+  // const [valuesRef, valuesInView] = useInView({
+  //   triggerOnce: true,
+  //   threshold: 0.1,
+  // });
+  // const [statsRef, statsInView] = useInView({
+  //   triggerOnce: true,
+  //   threshold: 0.1,
+  // });
+  // const [teamRef, teamInView] = useInView({
+  //   triggerOnce: true,
+  //   threshold: 0.1,
+  // });
+  // const [cultureRef, cultureInView] = useInView({
+  //   triggerOnce: true,
+  //   threshold: 0.1,
+  // });
 
-  const stats = [
-    {
-      icon: Award,
-      value: "10+",
-      label: "Years of Excellence",
-      description: "Delivering exceptional digital solutions",
-    },
-    {
-      icon: Users,
-      value: "500+",
-      label: "Happy Clients",
-      description: "Businesses transformed globally",
-    },
-    {
-      icon: Target,
-      value: "1000+",
-      label: "Projects Completed",
-      description: "Successfully delivered with precision",
-    },
-    {
-      icon: TrendingUp,
-      value: "98%",
-      label: "Success Rate",
-      description: "Client satisfaction guaranteed",
-    },
-  ];
+  // const stats = [
+  //   {
+  //     icon: Award,
+  //     value: "10+",
+  //     label: "Years of Excellence",
+  //     description: "Delivering exceptional digital solutions",
+  //   },
+  //   {
+  //     icon: Users,
+  //     value: "500+",
+  //     label: "Happy Clients",
+  //     description: "Businesses transformed globally",
+  //   },
+  //   {
+  //     icon: Target,
+  //     value: "1000+",
+  //     label: "Projects Completed",
+  //     description: "Successfully delivered with precision",
+  //   },
+  //   {
+  //     icon: TrendingUp,
+  //     value: "98%",
+  //     label: "Success Rate",
+  //     description: "Client satisfaction guaranteed",
+  //   },
+  // ];
 
-  const values = [
-    {
-      icon: Lightbulb,
-      title: "Innovation",
-      description:
-        "We stay ahead of the curve, embracing cutting-edge technologies and methodologies to deliver solutions that give our clients a competitive edge.",
-    },
-    {
-      icon: Heart,
-      title: "Client-Centric",
-      description:
-        "Your success is our success. We build lasting partnerships by understanding your unique needs and delivering solutions that exceed expectations.",
-    },
-    {
-      icon: Shield,
-      title: "Integrity",
-      description:
-        "Transparency, honesty, and ethical practices are the foundation of everything we do. We build trust through consistent, reliable service.",
-    },
-    {
-      icon: Rocket,
-      title: "Excellence",
-      description:
-        "We are committed to delivering nothing but the best. From code quality to customer service, excellence is our standard, not our goal.",
-    },
-  ];
+  // const values = [
+  //   {
+  //     icon: Lightbulb,
+  //     title: "Innovation",
+  //     description:
+  //       "We stay ahead of the curve, embracing cutting-edge technologies and methodologies to deliver solutions that give our clients a competitive edge.",
+  //   },
+  //   {
+  //     icon: Heart,
+  //     title: "Client-Centric",
+  //     description:
+  //       "Your success is our success. We build lasting partnerships by understanding your unique needs and delivering solutions that exceed expectations.",
+  //   },
+  //   {
+  //     icon: Shield,
+  //     title: "Integrity",
+  //     description:
+  //       "Transparency, honesty, and ethical practices are the foundation of everything we do. We build trust through consistent, reliable service.",
+  //   },
+  //   {
+  //     icon: Rocket,
+  //     title: "Excellence",
+  //     description:
+  //       "We are committed to delivering nothing but the best. From code quality to customer service, excellence is our standard, not our goal.",
+  //   },
+  // ];
 
   const milestones = [
     {
@@ -120,56 +120,56 @@ const AboutUs = () => {
     },
   ];
 
-  const teamMembers = [
-    {
-      name: "Vikram Patel",
-      role: "Founder & CEO",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      bio: "Visionary leader with 15+ years in digital transformation",
-    },
-    {
-      name: "Priya Sharma",
-      role: "CTO",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-      bio: "Expert in AI-driven SEO and technical architecture",
-    },
-    {
-      name: "Arjun Reddy",
-      role: "Head of Strategy",
-      image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-      bio: "Strategic mastermind behind 500+ successful campaigns",
-    },
-  ];
+  // const teamMembers = [
+  //   {
+  //     name: "Vikram Patel",
+  //     role: "Founder & CEO",
+  //     image:
+  //       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+  //     bio: "Visionary leader with 15+ years in digital transformation",
+  //   },
+  //   {
+  //     name: "Priya Sharma",
+  //     role: "CTO",
+  //     image:
+  //       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+  //     bio: "Expert in AI-driven SEO and technical architecture",
+  //   },
+  //   {
+  //     name: "Arjun Reddy",
+  //     role: "Head of Strategy",
+  //     image:
+  //       "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+  //     bio: "Strategic mastermind behind 500+ successful campaigns",
+  //   },
+  // ];
 
-  const cultureImages = [
-    {
-      image:
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop",
-      title: "Collaborative Workspace",
-      description: "Modern office designed for creativity and teamwork",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
-      title: "Innovation Hub",
-      description: "State-of-the-art technology and tools",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
-      title: "Team Building",
-      description: "Regular events and activities that strengthen bonds",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop",
-      title: "Learning & Development",
-      description: "Continuous training and skill enhancement programs",
-    },
-  ];
+  // const cultureImages = [
+  //   {
+  //     image:
+  //       "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop",
+  //     title: "Collaborative Workspace",
+  //     description: "Modern office designed for creativity and teamwork",
+  //   },
+  //   {
+  //     image:
+  //       "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop",
+  //     title: "Innovation Hub",
+  //     description: "State-of-the-art technology and tools",
+  //   },
+  //   {
+  //     image:
+  //       "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
+  //     title: "Team Building",
+  //     description: "Regular events and activities that strengthen bonds",
+  //   },
+  //   {
+  //     image:
+  //       "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop",
+  //     title: "Learning & Development",
+  //     description: "Continuous training and skill enhancement programs",
+  //   },
+  // ];
 
   return (
     <div className="bg-dark-900">

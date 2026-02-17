@@ -1,13 +1,12 @@
-import React from "react";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Hero from "./sections/Hero";
 import Work from "./sections/Work";
 import Services from "./sections/Services";
 import Process from "./sections/Process";
-import Pricing from "./sections/Pricing";
+
 import FAQ from "./sections/FAQ";
-import Team from "./sections/Team";
+
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Analytics from "./sections/Analytics";

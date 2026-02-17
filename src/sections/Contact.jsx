@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
 
 const Contact = () => {
@@ -227,9 +228,12 @@ const Contact = () => {
 
                 <div className="text-sm text-gray-400">
                   By submitting, you agree to our{" "}
-                  <a href="#" className="text-blue-400 hover:text-blue-300">
+                  <Link
+                    to="/privacy"
+                    className="text-blue-400 hover:text-blue-300 underline"
+                  >
                     Privacy Policy
-                  </a>
+                  </Link>
                   .
                 </div>
 
