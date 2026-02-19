@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "VBLP Tech Solutions Pvt. Ltd.",
+  "alternateName": "VBLP Tech Solutions",
+  "url": "https://www.vblp.co.in/",
+  "logo": "https://www.vblp.co.in/logo.png",
+  "description": "VBLP Tech Solutions Pvt. Ltd. is an SEO company in India providing technical SEO, content optimization, and organic growth strategies.",
+  "foundingDate": "2015",
+  "email": "info@vblptechsolutions.com",
+  "telephone": "+91-8309390566",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "IN"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/vblptech",
+    "https://twitter.com/vblptech",
+    "https://www.facebook.com/vblptech"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "telephone": "+91-8309390566",
+      "email": "info@vblptechsolutions.com",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  ]
+}
