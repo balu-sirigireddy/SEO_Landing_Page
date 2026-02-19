@@ -54,7 +54,7 @@ const Contact = () => {
             </h2>
             <p className="text-xl text-gray-400 mb-12">
               Ready to dominate search rankings? Share your goals — we'll craft
-              a custom SEO strategy for you.
+              a custom SEO Strategy for you.
             </p>
             {/* What We Offer */}
             <div className="mb-12">
