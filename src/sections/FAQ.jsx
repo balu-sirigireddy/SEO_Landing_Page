@@ -9,7 +9,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What makes your SEO landing pages different ?",
+      question: "What makes your SEO landing pages different?",
       answer:
         "Our landing pages combine technical SEO excellence with conversion-focused design. Every page is built with semantic HTML, optimized for Core Web Vitals, and strategically crafted to rank for high-intent keywords while driving measurable conversions. We don't just build pages—we build revenue-generating assets.",
     },

@@ -82,7 +82,11 @@ const Contact = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-400 mr-2">•</span>
+<<<<<<< HEAD
                   Monthly Reporting & ongoing support
+=======
+                  Monthly reporting & ongoing support
+>>>>>>> cf0a984cb8750abf80cd2e7b67e2ccb96aa9a6fb
                 </li>
               </ul>
             </div>
