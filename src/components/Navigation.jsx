@@ -55,7 +55,7 @@ const Navigation = () => {
             {/* Logo */}
             <a href="#top" className="flex items-center">
               <img
-                src="/logo.png"
+                src="/VBLPlogo.png"
                 alt="VBLP Tech Solutions Logo"
                 className="h-14 md:h-16 w-auto object-contain"
               />
