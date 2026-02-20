@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center pb-3">
               <img
-                src="/logo.png"
+                src="/VBLPlogo.png"
                 alt="VBLP Tech Solutions Logo"
                 className="h-14 md:h-16 w-auto object-contain"
               />
